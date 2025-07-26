@@ -19,14 +19,12 @@
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
-        # Example: install JS dependencies from NPM
-        # npm-install = "npm install";
+        setup-laravel = "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [ "README.md"];
       };
       # To run something each time the workspace is (re)started, use the `onStart` hook
       onStart = {
-        setup-laravel = "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed";
         start-server = "php artisan serve";
       };
     };
