@@ -27,7 +27,7 @@
       # To run something each time the workspace is (re)started, use the `onStart` hook
       onStart = {
         setup-laravel = "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed";
-        start-server = "php artisan serve --port 8000 --host 0.0.0.0";
+        start-server = "php artisan serve";
       };
     };
     # Enable previews and customize configuration
