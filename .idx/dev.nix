@@ -21,7 +21,7 @@
       onCreate = {
         setup-laravel = "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed";
         # Open editors for the following files by default, if they exist:
-        default.openFiles = [ "README.md" "AdminPanelProvider.php"];
+        default.openFiles = [];
       };
       # To run something each time the workspace is (re)started, use the `onStart` hook
       onStart = {
