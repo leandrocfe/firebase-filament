@@ -1,61 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Filament v4 + Firebase Studio
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project uses **Filament v4** (beta) with **Laravel 12**, running inside the **Firebase Studio** development environment.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✅ Prerequisites
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Make sure you have the following before starting:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- A [Firebase Studio](https://studio.firebase.google.com) account
+- A modern web browser
+- Internet connection
+- Basic knowledge of Laravel and Filament
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🚀 Getting Started on Firebase Studio
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+1. Go to [Firebase Studio](https://studio.firebase.google.com).
+2. In the dashboard, find the **Start coding an app** section.
+3. Click **Import Repo**.
+4. Paste the repository URL: https://github.com/leandrocfe/firebase-filament
+5. Click **Import** and wait for the workspace to be set up.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🖥️ Running the Project
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Once the environment is ready:
 
-### Premium Partners
+1. Open the terminal tab labeled **`start-server`**.
+2. Wait for the server to start automatically.
+3. Look for this message in the terminal: 
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+```bash
+Server running on http://127.0.0.1:8000
+```
+4. Click the link to open the application in your browser.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🔐 Test Login
 
-## Code of Conduct
+You can log into the app using the following credentials:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Email:** `test@example.com`
+- **Password:** `password`
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## ⚙️ Tech Stack
 
-## License
+- **PHP:** 8.3
+- **Framework:** Laravel 12
+- **Admin Panel:** Filament v4 (beta)
+- **Database:** SQLite (local file)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🧠 Additional Notes
+
+- The development environment is ready to use as soon as it's loaded in Firebase Studio.
+- You can edit the code directly within the Firebase Studio file editor.
+- If you'd like to run the project locally or with a different database, you'll need to configure your own environment (not covered in this guide).
+
+---
+
+## 📦 Repository
+
+- GitHub: [firebase-filament](https://github.com/leandrocfe/firebase-filament)
+
+---
+
+## ❓Support
+
+For questions or suggestions, open an issue in the repository or [Leandro Ferreira](https://github.com/leandrocfe).
+
+---
