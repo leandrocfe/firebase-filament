@@ -5,8 +5,8 @@
   channel = "stable-24.05"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.php
-    pkgs.php84Packages.composer
+    pkgs.php83
+    pkgs.php83Packages.composer
     pkgs.nodejs_20
   ];
   # Sets environment variables in the workspace
@@ -25,6 +25,10 @@
         default.openFiles = [ "README.md"];
       };
       # To run something each time the workspace is (re)started, use the `onStart` hook
+      onStart = {
+        setup-laravel = "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed";
+        start-server = "php artisan serve --port 8000 --host 0.0.0.0";
+      };
     };
     # Enable previews and customize configuration
     previews = {
