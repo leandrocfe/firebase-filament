@@ -53,7 +53,7 @@ You can log into the app using the following credentials:
 
 - **PHP:** 8.3
 - **Framework:** Laravel 12
-- **Admin Panel:** Filament v4 (beta)
+- **Admin Panel:** Filament v4
 - **Database:** SQLite (local file)
 
 ---
