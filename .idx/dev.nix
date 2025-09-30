@@ -19,7 +19,7 @@
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
-        setup-laravel = "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed";
+        setup-filament-4 = "composer install && cp .env.example .env && php artisan key:generate && php artisan storage:link && touch database/database.sqlite && php artisan migrate --seed";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [];
       };
