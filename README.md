@@ -17,11 +17,9 @@ Make sure you have the following before starting:
 
 ## 🚀 Getting Started on Firebase Studio
 
-1. Go to [Firebase Studio](https://studio.firebase.google.com).
-2. In the dashboard, find the **Start coding an app** section.
-3. Click **Import Repo**.
-4. Paste the repository URL: https://github.com/leandrocfe/firebase-filament
-5. Click **Import** and wait for the workspace to be set up.
+1. [Open this repository in Firebase Studio by clicking this link](https://studio.firebase.google.com/import?url=https://github.com/leandrocfe/firebase-filament)
+   You'll be taken to `Import Project`, ready to start.
+2. Click **Import** and wait for the workspace to be set up.
 
 ---
 
